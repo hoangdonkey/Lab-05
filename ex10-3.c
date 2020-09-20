@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main(){
+	int cnt, cnt1 = 0;
+	do{
+		printf("\nEnter a Number: ");
+		scanf("%d", &cnt);
+		printf("No. is %d", cnt);
+		cnt1++;
+	}
+	while(cnt != 0);
+	printf("\nThe total number entered were %d", --cnt1);
+}
